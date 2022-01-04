@@ -33,7 +33,7 @@ nav {
   font-weight: bold;
 }
 .btn-custom:hover {
-  color: #fff;
+  color: #fff !important;
 }
 
 .line {
