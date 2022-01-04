@@ -1,0 +1,116 @@
+#urban_lakes {
+  .hero {
+    margin-top: 100px;
+  }
+  .book-online {
+    // background-color: #ffbb00;
+    padding: 50px 0;
+  }
+  .overview {
+    margin-top: 100px;
+    ul {
+      padding: 15px;
+      li {
+        font-size: 18px;
+        // font-weight: bold;
+        list-style-type: circle;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .workthrough {
+    margin-top: 100px;
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  .amenities {
+    margin-top: 100px;
+    .amenities-gallery {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      a {
+        color: #000;
+      }
+    }
+    ul {
+      padding: 20px;
+      li {
+        list-style-type: circle;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  .location {
+    margin-top: 100px;
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 600px;
+    }
+    ul {
+      padding: 0 20px;
+      li {
+        font-size: 18px;
+        list-style: circle;
+      }
+    }
+  }
+  .q-link {
+    margin-top: 100px;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+    }
+    a {
+      color: #736357;
+      font-weight: bold;
+      padding: 0 20px;
+    }
+  }
+  .nav2 {
+    .navbar-nav {
+      display: flex;
+    }
+  }
+  .contact {
+    margin-top: 100px;
+    a {
+      text-decoration: none;
+      color: #736357;
+      font-weight: bold;
+    }
+  }
+  .club {
+    margin-top: 100px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .hero-card {
+    .card {
+      border: none;
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+      }
+    }
+  }
+}
+.no-bullets{
+  ul{
+    li{
+      list-style-type: none !important;
+    }
+  }
+}
