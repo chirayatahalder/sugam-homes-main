@@ -391,7 +391,15 @@ p {
 .book-online {
   position: fixed;
   right: -30px;
-  top: 30%;
+  top: 20%;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+}
+
+.book-online-1 {
+  position: fixed;
+  right: -30px;
+  top: 50%;
   -webkit-transform: rotateZ(-90deg);
           transform: rotateZ(-90deg);
 }
