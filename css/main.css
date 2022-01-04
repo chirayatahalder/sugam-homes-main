@@ -390,7 +390,7 @@ p {
 
 .book-online {
   position: fixed;
-  right: -30px;
+  right: -35px;
   top: 20%;
   -webkit-transform: rotateZ(-90deg);
           transform: rotateZ(-90deg);
@@ -398,7 +398,7 @@ p {
 
 .book-online-1 {
   position: fixed;
-  right: -30px;
+  right: -39px;
   top: 50%;
   -webkit-transform: rotateZ(-90deg);
           transform: rotateZ(-90deg);
@@ -523,7 +523,6 @@ p {
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
-  padding-left: 15%;
 }
 
 #customer-login {
