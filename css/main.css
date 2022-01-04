@@ -396,6 +396,88 @@ p {
           transform: rotateZ(-90deg);
 }
 
+.contact-mod {
+  position: fixed;
+  -webkit-transform: rotate(-450deg);
+          transform: rotate(-450deg);
+  top: 50%;
+  right: -49px;
+  z-index: 1000;
+}
+
+.contact-mod-1 {
+  position: fixed;
+  -webkit-transform: rotate(-450deg);
+          transform: rotate(-450deg);
+  top: 50%;
+  right: -82px;
+  z-index: 1000;
+}
+
+.contact-mod-1 a {
+  width: 200px;
+  height: 40px;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-brown {
+  color: #f8b417;
+  background-color: #736357;
+  border-color: #736357;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 0 #5c4f45;
+          box-shadow: 0 2px 0 0 #5c4f45;
+  -webkit-transition: 0.1s background-color linear;
+  transition: 0.1s background-color linear;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  /* padding: 0.6em 0; */
+  width: 105px;
+  height: 60px;
+  border-width: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn-1 a {
+  width: 100%;
+}
+
+.btn-brown:hover {
+  background: #7c6a5e;
+  color: #f8b417;
+  text-decoration: none;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #333;
+  text-decoration: none;
+}
+
 #customer-login {
   background-image: url("../assets/images/login/login_bg.jpg");
   height: 100vh;
